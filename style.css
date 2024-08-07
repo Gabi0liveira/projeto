@@ -3,8 +3,13 @@
     padding: 0;
 }
 
-h2{
+h1{
     color:orange;
+}
+
+body{
+    background-color: #305050;
+    text-align: center;
 }
 
 .cabeçalho{
@@ -26,29 +31,25 @@ h2{
     font-size: 24px; 
 }
 
-section{
-    background-color: #13376D;
-    color: white;
+.texto-titulo{
+    color: rgb(255, 165, 0);
     font-family: Roboto;
-    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     
 }
+.texto-conteudo{
+    color: white;
+    display: flex;
+}
+
 
 .texto-div-conteudo{
 width: 35%;
 text-align: justify;
-align-items: center;
 }
-h3{
+footer{
     color: orange;
 
-}
-
-#nome-usuário{
-    font-weight: bold;
-}
-
-.texto-inglês{
-    font-style: italic;
 }
